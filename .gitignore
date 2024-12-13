@@ -1,2 +1,5 @@
 # VS Code configuration
 .vscode
+
+# EXE files
+.exe
