@@ -2,4 +2,4 @@
 .vscode
 
 # EXE files
-.exe
+*.exe
