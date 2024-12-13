@@ -13,7 +13,7 @@ void insertionMerge(vector<int>& A, int p, int q, int r)
   int nL = q - p + 1;
   int nR = r - q;
   int k = nL + nR;
-  const int MAXIMUM_SIZE = 9;  // n^2 intercept 3n
+  const int MAXIMUM_SIZE = 32;  // n^2 intercept 3n
 
   // Use insertion sort or merge based on array length
   if (k <= MAXIMUM_SIZE)
